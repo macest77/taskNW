@@ -8,5 +8,6 @@ namespace MarcinSCatFact.Services
 {
     internal interface IFileReaderService
     {
+        public void ReadFile(IFileWriterService fileWriterService);
     }
 }

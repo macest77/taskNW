@@ -36,5 +36,13 @@ namespace MarcinSCatFact.Services
 
             return _filePath;
         }
+
+        public async Task AppendLineAsync(string line, CancellationToken cancellationToken = default)
+        {
+            EnsureFileExists();
+
+            // File.AppendAllTextAsync dopisuje na końcu pliku, nie nadpisując istniejącej zawartości.
+            await File.AppendAllTextAsync(_filePath, line + Environment.NewLine, cancellationToken);
+        }
     }
 }

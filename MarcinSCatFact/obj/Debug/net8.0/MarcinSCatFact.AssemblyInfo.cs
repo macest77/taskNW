@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MarcinSCatFact")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+a678aaf60afb07380ed8f563f9613f867d67301d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77aa9c63f3f9bda95ace8f19d982caba36cc6ea3")]
 [assembly: System.Reflection.AssemblyProductAttribute("MarcinSCatFact")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MarcinSCatFact")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

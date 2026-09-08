@@ -9,5 +9,7 @@ namespace MarcinSCatFact.Services
     internal interface IFileWriterService
     {
         string EnsureFileExists();
+
+        Task AppendLineAsync(string line, CancellationToken cancellationToken = default);
     }
 }

@@ -50,7 +50,7 @@ while (run)
             }
             break;
         default:
-            await FetchAndSaveFactAsync();
+            await FetchAndSaveFactAsync(apiService, writerService);
             break;
 
     }
@@ -58,7 +58,17 @@ while (run)
 
 }
 
-static async Task FetchAndSaveFactAsync()
+static async Task FetchAndSaveFactAsync(IApiService apiService, IFileWriterService writerService)
 {
-    //TODO pobieranie z catfact.ninja
+    try {
+        var fact = await apiService.GetCatFactAsync();
+        Console.WriteLine($"Pobrano: {fact}");
+
+        await writerService.AppendLineAsync(fact.ToString());
+        Console.WriteLine("Zapisano do pliku.");
+    }
+    catch (Exception ex)
+    {
+        Console.WriteLine($"Błąd podczas pobierania/zapisu: {ex.Message}");
+    }
 }
