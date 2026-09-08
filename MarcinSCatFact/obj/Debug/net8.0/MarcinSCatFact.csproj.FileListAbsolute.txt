@@ -12,3 +12,19 @@ D:\kolea\dotnetNetwise task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\refin
 D:\kolea\dotnetNetwise task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.pdb
 D:\kolea\dotnetNetwise task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.genruntimeconfig.cache
 D:\kolea\dotnetNetwise task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\ref\MarcinSCatFact.dll
+D:\kolea\dotnetNetwise task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.sourcelink.json
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\bin\Debug\net8.0\MarcinSCatFact.exe
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\bin\Debug\net8.0\MarcinSCatFact.deps.json
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\bin\Debug\net8.0\MarcinSCatFact.runtimeconfig.json
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\bin\Debug\net8.0\MarcinSCatFact.dll
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\bin\Debug\net8.0\MarcinSCatFact.pdb
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.GeneratedMSBuildEditorConfig.editorconfig
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.AssemblyInfoInputs.cache
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.AssemblyInfo.cs
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.csproj.CoreCompileInputs.cache
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.sourcelink.json
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.dll
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\refint\MarcinSCatFact.dll
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.pdb
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\MarcinSCatFact.genruntimeconfig.cache
+D:\kolea\dotnetNetwise_task\MarcinSCatFact\MarcinSCatFact\obj\Debug\net8.0\ref\MarcinSCatFact.dll

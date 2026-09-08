@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\kolea\\dotnetNetwise task\\MarcinSCatFact\\MarcinSCatFact\\MarcinSCatFact.csproj": {}
+    "D:\\kolea\\dotnetNetwise_task\\MarcinSCatFact\\MarcinSCatFact\\MarcinSCatFact.csproj": {}
   },
   "projects": {
-    "D:\\kolea\\dotnetNetwise task\\MarcinSCatFact\\MarcinSCatFact\\MarcinSCatFact.csproj": {
+    "D:\\kolea\\dotnetNetwise_task\\MarcinSCatFact\\MarcinSCatFact\\MarcinSCatFact.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\kolea\\dotnetNetwise task\\MarcinSCatFact\\MarcinSCatFact\\MarcinSCatFact.csproj",
+        "projectUniqueName": "D:\\kolea\\dotnetNetwise_task\\MarcinSCatFact\\MarcinSCatFact\\MarcinSCatFact.csproj",
         "projectName": "MarcinSCatFact",
-        "projectPath": "D:\\kolea\\dotnetNetwise task\\MarcinSCatFact\\MarcinSCatFact\\MarcinSCatFact.csproj",
+        "projectPath": "D:\\kolea\\dotnetNetwise_task\\MarcinSCatFact\\MarcinSCatFact\\MarcinSCatFact.csproj",
         "packagesPath": "C:\\Users\\maces\\.nuget\\packages\\",
-        "outputPath": "D:\\kolea\\dotnetNetwise task\\MarcinSCatFact\\MarcinSCatFact\\obj\\",
+        "outputPath": "D:\\kolea\\dotnetNetwise_task\\MarcinSCatFact\\MarcinSCatFact\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\maces\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -47,6 +47,16 @@
         "net8.0": {
           "framework": "net8.0",
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.Extensions.Hosting": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            },
+            "Microsoft.Extensions.Http": {
+              "target": "Package",
+              "version": "[10.0.11, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

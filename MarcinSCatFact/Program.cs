@@ -1,6 +1,18 @@
 ﻿using MarcinSCatFact.Services;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
 
+var builder = Host.CreateApplicationBuilder(args);
+
+builder.Services.AddHttpClient(); // rejestruje IHttpClientFactory
+builder.Services.AddSingleton<IApiService, ApiService>();
+builder.Services.AddSingleton<IFileWriterService, FileWriterService>();
+
+using var host = builder.Build();
+
+var apiService = host.Services.GetRequiredService<IApiService>();
 var writerService = new FileWriterService();
+var readerService = new FileReaderService();
 var filePath = writerService.EnsureFileExists();
 
 Console.WriteLine("Witaj w Kocie Fakty [by Marcin Stefanski]");
@@ -10,3 +22,43 @@ Console.WriteLine("[Enter] - pobierz fakt");
 Console.WriteLine(" f      - zmień nazwę pliku");
 Console.WriteLine(" a      - wyświetl zapisane fakty");
 Console.WriteLine(" q      - zakończ program");
+Console.WriteLine();
+
+var run = true;
+
+while (run)
+{
+    Console.Write("> ");
+    var input = Console.ReadLine()?.Trim().ToLowerInvariant();
+
+    switch (input)
+    {
+        case "q":
+            run = false; break;
+        case "a":
+            readerService.ReadFile(writerService);
+            break;
+        case "f":
+            Console.Write("Podaj nową nazwę pliku: ");
+            var newName = Console.ReadLine()?.Trim().ToLowerInvariant();
+            if (newName.Length > 0)
+            {
+                writerService.SetFileName(newName);
+            } else
+            {
+                Console.WriteLine("Nie podano nazwy pliku. Nazwa bez zmian.");
+            }
+            break;
+        default:
+            await FetchAndSaveFactAsync();
+            break;
+
+    }
+
+
+}
+
+static async Task FetchAndSaveFactAsync()
+{
+    //TODO pobieranie z catfact.ninja
+}
